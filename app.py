@@ -1,5 +1,6 @@
-from flask import Flask
-from bokeh.models.sources import AjaxDataSource
+from flask import Flask, render_template
+from bokeh.plotting import figure
+from bokeh.embed import components
 
 app = Flask(__name__)
 
