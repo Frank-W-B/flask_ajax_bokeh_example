@@ -5,5 +5,11 @@ implementation follows David Hamann's blog post here:
 
 ## Create virtual environment  
 
-`$ python3 -m venv flask-ajax-bokeh-env`
-`$ source flask-ajax-bokeh-env/bin/activate`
+`$ python3 -m venv flask-ajax-bokeh-env`  
+`$ source flask-ajax-bokeh-env/bin/activate`  
+
+The first time the environment is activated install Flask and bokeh:  
+`$ pip install Flask bokeh`
+
+
+
